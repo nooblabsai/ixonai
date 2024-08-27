@@ -4,7 +4,7 @@ services:
     volumes:
       - ./searxng:/etc/searxng:rw
     ports:
-      - 3100:8080
+      - 5000:8080
     networks:
       - perplexica-network
     restart: unless-stopped
